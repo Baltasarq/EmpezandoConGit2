@@ -1,9 +1,14 @@
 
 namespace HolaMundo {
     class Saludo {
+        static void Salida(string msg)
+        {
+            System.Console.WriteLine( msg );
+        }
+        
         static void Main()
         {
-            System.Console.WriteLine( "Hola, mundo mundial !!!" );
+            Salida( "Hola, mundo mundial !!!" );
         }
     }
 }
