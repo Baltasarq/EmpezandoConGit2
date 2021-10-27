@@ -1,2 +1,3 @@
 # EmpezandoConGit2
-Trabajo sobre Git como introducción
+
+Trabajo sobre Git como introducción.
