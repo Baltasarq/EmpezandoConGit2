@@ -1,9 +1,13 @@
 
 namespace HolaMundo {
     class Saludo {
-        static void Salida(string msg)
+        static void Salida(string msg, bool cr=true)
         {
-            System.Console.WriteLine( msg );
+            System.Console.Write( msg );
+
+            if ( cr ) {
+                System.Console.WriteLine();
+            }
         }
         
         static void Main()
